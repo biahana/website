@@ -17,7 +17,7 @@ class Contact extends React.Component {
           </div>
 
           <div className="rightcontact">
-            <form>
+            <form action="https://formspree.io/biahana@hotmail.com" method="POST">
               <input type="text" name="name" size="50" placeholder="Your name" required />
               <br></br>
               <br></br>
