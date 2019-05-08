@@ -28,7 +28,7 @@ class Home extends React.Component {
           </div>
         </div>
 
-        <div className="container">
+        <div className="img-fluid container">
           <div className="box1"></div>
           <div className="box2"></div>
         </div>

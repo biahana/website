@@ -7,6 +7,12 @@ body {
     height: 100vh !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    @media (max-width: 300px) {
+        clear: both;
+        overflow-x: hidden;
+        
+    }  
 }
 
 .Home {
@@ -36,6 +42,10 @@ body {
                 }
         }
     }
+& .img-fluid{
+    max-width:100%;
+    height: auto;
+}
 
     & .container {
         display: flex;
@@ -43,15 +53,26 @@ body {
 
         & .box1,
         & .box2 {
-            width: 600px;
-            height: 400px;
+            display: block;
+            width: 50%;
+            height: 300px;
             margin-left: auto;
             margin-right: auto;
             padding: 10px;
             border: 1px solid rgb(226, 225, 225);
             box-shadow: 5px 5px 5px rgb(185, 184, 184);
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: cover; 
+            background-position: center center;
+
+            @media (max-width: 650px)  {
+                display: block;
+                width:100% !important;
+                height:150px !important;
+                margin: 0;
+                background-position: center center;
+            
+            }
         }
 
         & .box1 {
@@ -75,4 +96,5 @@ body {
         padding: 5px;
     }
   }
+  
 }
