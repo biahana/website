@@ -75,7 +75,7 @@ class Resume extends React.Component {
               <p>Worked in the client side PRODESP (data processing company of the state of Sao Paulo) to analyze the needs of DETRAN (transit department of Sao Paulo). The goal of the project was to improve services to the users through automation, and this automation facilitated  many services to customers</p>
             <ul>
               <li><i className="fa-li fa fa-trophy text-warning"></i>Interviewed the key-users who worked in DETRAN</li>
-              <li><i className="fa-li fa fa-trophy text-warning"></i>Designed the the scenarios AS IS / TO BE</li>
+              <li><i className="fa-li fa fa-trophy text-warning"></i>Designed the scenarios AS IS / TO BE</li>
               <li><i className="fa-li fa fa-trophy text-warning"></i>Identified possible improvements to automate the process</li>
               <li><i className="fa-li fa fa-trophy text-warning"></i>Presented to the stakeholders in the project</li>
               <li><i className="fa-li fa fa-trophy text-warning"></i>Writing the analysis according to the client’s template</li>
@@ -84,7 +84,7 @@ class Resume extends React.Component {
               <li><i className="fa-li fa fa-trophy text-warning"></i>Interviewed the end-users to measure if was a successful automation</li>
             </ul>
 
-            <p id="title">Caixa Economica Federal (Feb 2015 – Jul 2018)</p>
+            <p id="title">Client: Caixa Economica Federal (Feb 2015 – Jul 2018)</p>
               <p>Worked in the client side Caixa Economica Federal (government bank) in Sao Paulo, Brazil.
                   Using Agile method, this project aimed to write the requirements of the judicial system. Through this method, the corrections in the legacy system and new programs led to a decrease in processing time from 4 months to 3 weeks</p>
             <ul>
